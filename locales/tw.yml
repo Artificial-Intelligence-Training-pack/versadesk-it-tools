@@ -1,0 +1,396 @@
+home:
+  categories:
+    newestTools: '最新工具'
+    favoriteTools: '我的最愛'
+    allTools: '所有工具'
+    favoritesDndToolTip: '拖放重新排列收藏清單'
+  subtitle: '為開發者與 IT 工作者助力'
+  toggleMenu: '切換選單'
+  home: '首頁'
+  uiLib: 'UI 元件庫'
+  support: '支援 IT 工具開發'
+  buyMeACoffee: '請我喝杯咖啡'
+  follow:
+    title: '追蹤我們'
+    p1: '給我們星標'
+    githubRepository: 'GitHub 儲存庫'
+    p2: '追蹤我們的'
+    twitterXAccount: 'IT-Tools X 帳號'
+    thankYou: '感謝您的支持！'
+  nav:
+    github: 'GitHub 儲存庫'
+    githubRepository: 'GitHub 儲存庫'
+    twitterX: 'Twitter 帳號'
+    twitterXAccount: 'IT-Tools X 帳號'
+    about: '關於 IT-Tools'
+    aboutLabel: '關於'
+    darkMode: '深色模式'
+    lightMode: '淺色模式'
+    mode: '顏色模式'
+about:
+  content: >
+    # 關於 IT-Tools
+
+    IT-Tools 是由 [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about) 使用 ❤ 開發的一個工具集合，對開發者與 IT 從業人員特別有幫助。如果您覺得有用，請分享給您的朋友，並加到收藏清單中！
+
+    IT-Tools 永久免費且開源（MIT 授權），但仍需資金來維護伺服器和續訂網域。如果您願意支持我的工作並鼓勵我新增更多功能，請考慮透過 [請我喝杯咖啡](https://www.buymeacoffee.com/cthmsst) 進行贊助。
+
+    ## 技術細節
+
+    IT-Tools 是基於 Vue.js（Vue 3）和 Naive UI 元件庫開發，並由 Vercel 託管與持續部署。部分工具使用了第三方開源庫，您可以在儲存庫的 [package.json](https://github.com/CorentinTh/it-tools/blob/main/package.json) 文件中查看完整列表。
+
+    ## 發現問題？缺少工具？
+
+    如果這裡缺少您需要的工具，且您認為這個功能可能很實用，歡迎至 GitHub 儲存庫的 [issues](https://github.com/CorentinTh/it-tools/issues/new/choose) 提交功能需求。
+
+    如果您發現了 Bug，或某些功能未如預期運作，請至 GitHub 儲存庫的 [issues](https://github.com/CorentinTh/it-tools/issues/new/choose) 提交錯誤報告。
+
+404:
+  notFound: '404 找不到頁面'
+  sorry: '抱歉，該頁面似乎不存在'
+  maybe: '可能是快取出了點問題，試試強制重新整理頁面？'
+  backHome: '回到首頁'
+favoriteButton:
+  remove: '取消最愛'
+  add: '加入最愛'
+toolCard:
+  new: '新'
+search:
+  label: '搜尋'
+tools:
+  categories:
+    favorite-tools: '我的最愛'
+    crypto: '加密'
+    converter: '轉換器'
+    web: Web
+    images and videos: '圖片和影片'
+    development: '開發'
+    network: '網路'
+    math: '數學'
+    measurement: '測量'
+    text: '文字'
+    data: '資料'
+
+  password-strength-analyser:
+    title: 密碼強度分析器
+    description: 使用此工具分析密碼強度並估算破解時間。
+
+  chronometer:
+    title: 計時器
+    description: 追蹤事件的持續時間。基本上是一個簡單的計時功能。
+
+  token-generator:
+    title: Token 產生器
+    description: 使用自訂字元、大寫、小寫、數字或符號隨機產生字串。
+
+    uppercase: '大寫 (ABC...)'
+    lowercase: '小寫 (abc...)'
+    numbers: '數字 (123...)'
+    symbols: '符號 (!-;...)'
+    length: '長度'
+    tokenPlaceholder: '令牌...'
+    copied: 已複製到剪貼簿
+    button:
+      copy: 複製
+      refresh: 刷新
+  percentage-calculator:
+    title: 百分比計算器
+    description: 輕鬆計算值與百分比的相互轉換。
+
+  svg-placeholder-generator:
+    title: SVG 佔位圖產生器
+    description: 產生用於應用程式中的 SVG 佔位圖。
+
+  json-to-csv:
+    title: JSON 轉 CSV
+    description: 使用自動標題檢測將 JSON 轉換為 CSV。
+
+  camera-recorder:
+    title: 攝影機錄影器
+    description: 使用網路攝影機拍攝照片或錄製影片。
+
+  keycode-info:
+    title: 按鍵代碼資訊
+    description: 查找按下的按鍵的 JavaScript 鍵代碼、代碼位置與修飾鍵。
+
+  emoji-picker:
+    title: Emoji 選擇器
+    description: 輕鬆複製貼上 Emoji 表情符號，並查看每個表情符號的 Unicode 與 Code Points 值。
+
+  color-converter:
+    title: 顏色轉換器
+    description: 在不同格式（十六進位、RGB、HSL 和 CSS 名稱）之間轉換顏色。
+
+  bcrypt:
+    title: 加密
+    description: 使用 bcrypt 演算法對文字進行雜湊處理與比較。Bcrypt 是一種基於 Blowfish 密碼的雜湊函數。
+
+  crontab-generator:
+    title: Crontab 表達式產生器
+    description: 驗證並生成 crontab，並提供 cron 排程的可讀性描述。
+
+  http-status-codes:
+    title: HTTP 狀態碼
+    description: 查看所有 HTTP 狀態碼的列表及其名稱與含義解釋。
+
+  sql-prettify:
+    title: SQL 美化與格式化
+    description: 線上格式化並美化您的 SQL 查詢（支援多種 SQL 方言）。
+
+  benchmark-builder:
+    title: 基準測試生成器
+    description: 一個簡單的線上基準測試生成器，用於輕鬆比較任務執行時間。
+
+  git-memo:
+    title: Git 備忘錄
+    description: Git 是一種分散式版本控制軟體。使用此備忘錄，快速查閱最常用的 Git 指令。
+
+  slugify-string:
+    title: 字串格式化
+    description: 確保字串適合用於 URL、檔名及 ID。
+
+  encryption:
+    title: 加密/解密文字
+    description: 使用加密演算法（如 AES、TripleDES、Rabbit 或 RC4）加密與解密明文。
+
+  random-port-generator:
+    title: 隨機埠產生器
+    description: 生成 1023 以上的隨機埠號。
+
+  yaml-prettify:
+    title: YAML 美化與格式化
+    description: 將 YAML 字串轉為更易讀的格式。
+
+  eta-calculator:
+    title: ETA 計算器
+    description: 計算任務的預計完成時間（如下載結束時間）。
+
+  roman-numeral-converter:
+    title: 羅馬數字轉換器
+    description: 將羅馬數字轉換為阿拉伯數字，或將阿拉伯數字轉換為羅馬數字。
+
+  hmac-generator:
+    title: HMAC 生成器
+    description: 使用密鑰及您選擇的雜湊函數計算基於雜湊的訊息驗證碼（HMAC）。
+
+  bip39-generator:
+    title: BIP39 密碼生成器
+    description: 從現有或隨機助記詞生成 BIP39 密碼短語，或從密碼短語獲取助記詞。
+
+  base64-file-converter:
+    title: Base64 文件轉換器
+    description: 將字串、檔案或圖片轉換為 Base64 格式。
+
+  list-converter:
+    title: 列表轉換器
+    description: 處理陣列資料，對每行進行多種操作（如轉置、添加前後綴、反向、排序、小寫或截斷）。
+
+  base64-string-converter:
+    title: Base64 字串編碼/解碼
+    description: 將字串編碼與解碼為 Base64 格式。
+
+  toml-to-yaml:
+    title: TOML 轉 YAML
+    description: 解析並轉換 TOML 為 YAML。
+
+  math-evaluator:
+    title: 數學計算器
+    description: 一個支援 sqrt、cos、sin、abs 等函數的數學表達式計算器。
+
+  json-to-yaml-converter:
+    title: JSON 轉 YAML
+    description: 線上將 JSON 轉換為 YAML。
+
+  url-parser:
+    title: URL 分析器
+    description: 解析 URL 並提取各部分（協議、來源、參數、埠、帳號密碼等）。
+
+  iban-validator-and-parser:
+    title: IBAN 驗證器與解析器
+    description: 驗證與解析 IBAN 號碼，檢查其有效性，並獲取國家 BBAN 或 QR-IBAN 格式。
+
+  user-agent-parser:
+    title: 使用者代理分析器
+    description: 分析使用者代理字串，偵測瀏覽器、引擎、作業系統、CPU 與裝置型號。
+
+  numeronym-generator:
+    title: 數字縮寫生成器
+    description: 產生數字縮寫（如 "i18n" 表示 "Internationalization"，18 為 i 與 n 間的字母數量）。
+
+  case-converter:
+    title: 大小寫轉換
+    description: 改變字串的大小寫，並選擇多種格式。
+
+  html-entities:
+    title: HTML 實體編碼
+    description: 將 <、>、&、" 和 ' 等符號轉換為 HTML 實體，或反向解碼。
+
+  json-prettify:
+    title: JSON 美化與格式化
+    description: 將 JSON 字串轉為更易讀的格式。
+
+  docker-run-to-docker-compose-converter:
+    title: Docker Run 轉 docker-compose
+    description: 將 Docker Run 指令轉換為 docker-compose 檔案。
+
+  mac-address-lookup:
+    title: MAC 地址查詢
+    description: 根據設備的 MAC 地址查詢廠商與製造商資訊。
+
+  mime-types:
+    title: MIME 類型
+    description: 將 MIME 類型轉換為副檔名，或反向轉換。
+
+  toml-to-json:
+    title: TOML 轉 JSON
+    description: 解析 TOML 並轉換為 JSON。
+
+  lorem-ipsum-generator:
+    title: Lorem Ipsum 生成器
+    description: 生成占位文字 Lorem Ipsum，常用於設計範例文件或字型展示。
+
+  qrcode-generator:
+    title: QR Code 生成器
+    description: 生成並下載 URL 或文字的 QR Code，可自訂背景與前景顏色。
+
+  wifi-qrcode-generator:
+    title: WiFi QR Code 生成器
+    description: 生成並下載 WiFi 快速連線用的 QR Code。
+
+  xml-formatter:
+    title: XML 格式化
+    description: 將 XML 字串轉為更易讀的格式。
+
+  temperature-converter:
+    title: 溫度轉換器
+    description: 不同溫標間的轉換（如開爾文、攝氏、華氏等）。
+
+  chmod-calculator:
+    title: Chmod 計算器
+    description: 線上 Chmod 計算器，用於計算權限與命令。
+
+  rsa-key-pair-generator:
+    title: RSA 金鑰對生成器
+    description: 生成新的隨機 RSA 公私金鑰對（PEM 格式）。
+
+  html-wysiwyg-editor:
+    title: HTML 所見即所得編輯器
+    description: 功能強大的線上 HTML 編輯器，可立即檢視內容的原始碼。
+
+
+  yaml-to-toml:
+    title: YAML 轉 TOML
+    description: 解析 YAML 並將其轉換為 TOML。
+
+  mac-address-generator:
+    title: MAC 位址生成器
+    description: 輸入數量與前綴，並選擇大小寫（大寫或小寫）生成 MAC 位址。
+
+  json-diff:
+    title: JSON 差異比較
+    description: 比較兩個 JSON 物件並查看它們之間的差異。
+
+  jwt-parser:
+    title: JWT 解析器
+    description: 解析與解碼 JSON Web Token（JWT）並顯示其內容。
+
+  date-converter:
+    title: 日期時間轉換器
+    description: 將日期與時間轉換為多種不同格式。
+
+  phone-parser-and-formatter:
+    title: 電話號碼解析與格式化
+    description: 解析、驗證並格式化電話號碼，提供國碼、類型等相關資訊。
+
+  ipv4-subnet-calculator:
+    title: IPv4 子網計算器
+    description: 解析 IPv4 CIDR 區塊並獲取子網的詳細資訊。
+
+  og-meta-generator:
+    title: Open Graph 中繼標籤生成器
+    description: 為您的網站生成 Open Graph 與社群 HTML 中繼標籤。
+
+  ipv6-ula-generator:
+    title: IPv6 ULA 生成器
+    description: 根據 RFC4193 為網路生成本地不可路由的 IP 位址。
+
+  hash-text:
+    title: Hash 文本
+    description: 使用所需的演算法對文本進行雜湊運算：MD5、SHA1、SHA256、SHA224、SHA512、SHA384、SHA3 或 RIPEMD160。
+
+  json-to-toml:
+    title: JSON 轉 TOML
+    description: 解析 JSON 並將其轉換為 TOML。
+
+  device-information:
+    title: 裝置資訊
+    description: 獲取當前裝置的相關資訊（螢幕大小、像素比率、使用者代理…）。
+
+  pdf-signature-checker:
+    title: PDF 簽章檢查器
+    description: 驗證 PDF 文件的簽章是否有效，並確認內容在簽章後是否被修改。
+
+  json-minify:
+    title: JSON 壓縮
+    description: 刪除不必要的空白以壓縮 JSON。
+
+  ulid-generator:
+    title: ULID 生成器
+    description: 生成隨機的通用唯一可排序標識符（ULID）。
+
+  string-obfuscator:
+    title: 字串混淆器
+    description: 將字串（例如密碼、IBAN 或權杖）進行混淆，使其可分享但不洩露內容。
+
+  base-converter:
+    title: 整數基數轉換器
+    description: 在不同進位制（十進位、十六進位、二進位、八進位、Base64…）之間轉換數字。
+
+  yaml-to-json-converter:
+    title: YAML 轉 JSON
+    description: 使用此線上工具將 YAML 轉換為 JSON。
+
+  uuid-generator:
+    title: UUID 生成器
+    description: 通用唯一識別碼（UUID）為 128 位元數字，用於識別系統中的資訊。可能的 UUID 數量為 16^32 或約 3.4x10^38（這是一個非常大的數字！）。
+
+  ipv4-address-converter:
+    title: IPv4 位址轉換器
+    description: 將 IPv4 位址轉換為十進位、二進位、十六進位或其他格式。
+
+  text-statistics:
+    title: 文本統計
+    description: 獲取文本的相關資訊，例如字元數、單字數與大小。
+
+  text-to-nato-alphabet:
+    title: 文本轉北約字母表
+    description: 將文本轉換為北約拼音字母表，方便口頭傳播。
+
+  basic-auth-generator:
+    title: 基本驗證生成器
+    description: 根據使用者名稱與密碼生成 Base64 基本驗證標頭。
+
+  text-to-unicode:
+    title: 文本轉 Unicode
+    description: 解析文本並將其轉換為 Unicode，或將 Unicode 轉換回文本。
+
+  ipv4-range-expander:
+    title: IPv4 範圍擴展器
+    description: 根據起始與結束的 IPv4 位址計算有效的 CIDR 網路。
+
+  text-diff:
+    title: 文本比較
+    description: 比較兩段文本並查看它們的差異。
+
+  otp-generator:
+    title: OTP 密碼生成器
+    description: 生成與驗證基於時間的一次性密碼（OTP），用於多因素驗證。
+
+  url-encoder:
+    title: URL 編碼器/解碼器
+    description: 將字串編碼為 URL 格式（百分比編碼）或從中解碼。
+
+  text-to-binary:
+    title: 文本轉 ASCII 二進位
+    description: 將文本轉換為其 ASCII 二進位表示，或反向轉換。
+

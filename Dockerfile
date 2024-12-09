@@ -1,3 +1,7 @@
+# Creates Docker Container
+# docker run -it -p 8088:80 --name test besta/ittools:v2024.10.22-7ca5933
+# docker build -t besta/ittools:v2024.10.22-7ca5933 .
+
 # build stage
 FROM node:lts-alpine AS build-stage
 # Set environment variables for non-interactive npm installs
